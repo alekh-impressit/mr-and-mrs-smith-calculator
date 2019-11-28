@@ -1,0 +1,12 @@
+monolog:
+    channels: [calculator]
+    handlers:
+        main:
+            type: stream
+            path: '%kernel.logs_dir%/%kernel.environment%.log'
+            level: debug
+            channels: ['!calculator']
+        calculator:
+            type: stream
+            path: '%kernel.logs_dir%/calculator.%kernel.environment%.log'
+            channels: calculator

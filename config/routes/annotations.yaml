@@ -1,0 +1,7 @@
+web_controllers:
+    resource: ../../src/Controller/Web
+    type: annotation
+
+calculator_api_controllers:
+    resource: ../../src/Controller/CalculatorApi
+    type: annotation

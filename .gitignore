@@ -1,0 +1,17 @@
+/phpunit.xml
+/vendor/
+/nbproject
+/.idea
+.DS_Store
+/.env
+/var/cache/*
+!/var/cache/.gitignore
+/var/log/*
+!/var/log/.gitignore
+/node_modules/
+/public/website/
+npm-debug.log
+yarn-error.log
+/assets/js/website/configs/config.yml
+/.phpcs-cache
+/phpcs.xml

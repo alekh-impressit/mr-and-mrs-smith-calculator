@@ -1,0 +1,162 @@
+{
+	"info": {
+		"_postman_id": "37f67996-17eb-4ba3-b37c-baf74f7b43e2",
+		"name": "Calculator",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Plus operation",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"firstNumber\": 5, \"secondNumber\": 3}"
+				},
+				"url": {
+					"raw": "http://calculator.com/api/1.0/plus",
+					"protocol": "http",
+					"host": [
+						"calculator",
+						"com"
+					],
+					"path": [
+						"api",
+						"1.0",
+						"plus"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Minus operation",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"firstNumber\": 5, \"secondNumber\": 3}"
+				},
+				"url": {
+					"raw": "http://calculator.com/api/1.0/minus",
+					"protocol": "http",
+					"host": [
+						"calculator",
+						"com"
+					],
+					"path": [
+						"api",
+						"1.0",
+						"minus"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Division operation",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"firstNumber\": 12, \"secondNumber\": 4}"
+				},
+				"url": {
+					"raw": "http://calculator.com/api/1.0/division",
+					"protocol": "http",
+					"host": [
+						"calculator",
+						"com"
+					],
+					"path": [
+						"api",
+						"1.0",
+						"division"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Multiplication operation",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"firstNumber\": 5, \"secondNumber\": 3}"
+				},
+				"url": {
+					"raw": "http://calculator.com/api/1.0/multiplication",
+					"protocol": "http",
+					"host": [
+						"calculator",
+						"com"
+					],
+					"path": [
+						"api",
+						"1.0",
+						"multiplication"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Bitwise and operation",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"firstNumber\": 3, \"secondNumber\": 1}"
+				},
+				"url": {
+					"raw": "http://calculator.com/api/1.0/bitwise/and",
+					"protocol": "http",
+					"host": [
+						"calculator",
+						"com"
+					],
+					"path": [
+						"api",
+						"1.0",
+						"bitwise",
+						"and"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Bitwise or operation",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"firstNumber\": 5, \"secondNumber\": 8}"
+				},
+				"url": {
+					"raw": "http://calculator.com/api/1.0/bitwise/or",
+					"protocol": "http",
+					"host": [
+						"calculator",
+						"com"
+					],
+					"path": [
+						"api",
+						"1.0",
+						"bitwise",
+						"or"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

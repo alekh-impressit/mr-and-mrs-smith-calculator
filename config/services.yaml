@@ -1,0 +1,21 @@
+parameters:
+
+services:
+    _defaults:
+        autowire: true
+        autoconfigure: true
+
+    Calculator\:
+        resource: '../src/*'
+        exclude: '../src/{Kernel.php,EventListener,Exception,Resources,Helper}'
+
+    Calculator\Controller\:
+        resource: '../src/Controller'
+        exclude: '../src/Controller/{BaseController.php}'
+        tags: ['controller.service_arguments']
+
+    Calculator\EventListener\ExceptionListener:
+        tags:
+            - { name: kernel.event_listener, event: kernel.exception }
+        arguments:
+            - '@monolog.logger.calculator'

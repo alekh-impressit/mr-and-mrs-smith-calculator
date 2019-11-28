@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <base href="/">
+
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>{% block title %}Calculator v.1.0!{% endblock %}</title>
+
+    <link rel="icon" type="image/x-icon" href=""/>
+
+    {% block appStyles %}{% endblock %}
+</head>
+<body class="{% block bodyClass %}{% endblock %}">
+{% block body %}{% endblock %}
+
+{% block appScripts %}{% endblock %}
+</body>
+</html>

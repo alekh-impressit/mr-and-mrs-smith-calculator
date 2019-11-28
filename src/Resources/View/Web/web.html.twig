@@ -1,0 +1,15 @@
+{% extends 'base.html.twig' %}
+
+{% block bodyClass %}web-body{% endblock %}
+
+{% block appScripts %}
+    {{ encore_entry_script_tags('website', null, 'websiteConfig') }}
+{% endblock %}
+
+{% block appStyles %}
+    {{ encore_entry_link_tags('website', null, 'websiteConfig') }}
+{% endblock %}
+
+{% block body %}
+    <div id="website-root"></div>
+{% endblock %}
