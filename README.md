@@ -8,6 +8,7 @@
 In this project we implemented an API for calculator that can handle ​arithmetical​ and bitwise operations using Symfony 5. You can find all API references in `./Calculator.postman_collection.json` file (Provided by Postman). On the front-end we use React and Symfony Encore component.
 
 As a code style format we use PSR-2 standard. To check php code-sniffer report please do the following steps:
+
 - In project root folder create `./phpcs.xml` file based on `./phpcs.xml.dist`(In our case we can keep all configs as they are in base file)
 - Execute this command `./vendor/bin/phpcs` in the project root folder.
 
